@@ -1,4 +1,4 @@
-# NBA stats search
+# NBA Players Stats Explorer
 
 The goal of this project is to provide an interactive tool that allows users to explore NBA player statistics and compare players using tree structures. 
 
