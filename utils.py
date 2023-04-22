@@ -26,3 +26,9 @@ def load_player_stats(json_file):
         player_stats = json.load(file)
     return player_stats
 
+
+def check_quit(user_input):
+    if user_input.lower() == 'quit':
+        print("Thank you for using NBA Stats Explorer!\n")
+        exit()
+

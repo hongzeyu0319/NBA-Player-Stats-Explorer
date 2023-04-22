@@ -1,7 +1,23 @@
 # NBA Players Stats Explorer
 
-The goal of this project is to provide an interactive tool that allows users to explore NBA player statistics and compare players using tree structures. 
+The NBA Players Stats Explorer is an interactive tool designed to allow users to explore NBA player statistics and compare players using Binary Search Tree (BST) structures.
 
-The program will access data from the NBA stats website and the NBA Stats API to create a dataset that contains player information, team information, and various statistics (e.g., points, rebounds, assists, etc.). The program will also scrape player stats pages from Basketball-Reference to augment the dataset. 
+This project accesses data from the NBA stats website and the NBA Stats API to create a dataset containing player information, team information, and various statistics (e.g., points, rebounds, assists, etc.). Additionally, the program scrapes player stats pages from Basketball-Reference to augment the dataset.
 
-The program will then build tree structures of player statistics based on user-selected criteria (e.g., points per game, assists per game, etc.) and allow users to compare players by visualizing the trees.
+By building BST tree structures based on user-selected criteria (e.g., points per game, assists per game, etc.), the NBA Players Stats Explorer enables users to compare players and visualize the trees.
+
+## Prerequisites
+Before installing the NBA Players Stats Explorer, ensure you have the following software installed on your machine:
+
+Python 3.8 or higher
+
+## Required Packages
+The NBA Players Stats Explorer relies on the following Python packages:
+
+pandas
+numpy
+requests
+beautifulsoup4
+
+## User Interaction
+The explorer interact with user with a straight forward command line prompt. Following the prompt you should be fine.
