@@ -15,8 +15,11 @@ Python 3.8 or higher
 The NBA Players Stats Explorer relies on the following Python packages:
 
 pandas
+
 numpy
+
 requests
+
 beautifulsoup4
 
 ## User Interaction
